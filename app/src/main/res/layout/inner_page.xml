@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#68000000"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#68000000"
+            >
+            <Button
+                android:id="@+id/backin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="回"
+                android:textSize="20sp"
+                android:background="#68000000"
+                />
+            <TextView
+                android:id="@+id/titlein"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="title"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/his_avatar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/hisuser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                    android:text="user"
+                    />
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:id="@+id/authorin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="nick"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/timein"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="time"
+                android:textSize="15sp"
+                />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/hui"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/contentin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="200dp"
+                android:text="content"
+                android:textSize="19sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/show1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+                <ImageView
+                    android:id="@+id/show2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/show3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                >-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/show4"-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    />-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/show5"-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    />-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/show6"-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    />-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                >-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/show7"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    />-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/show8"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    />-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/show9"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    />-->
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/like_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/like"
+                />
+            <TextView
+                android:id="@+id/like_num"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+            <ImageView
+                android:id="@+id/star_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/star"
+                />
+
+            <TextView
+
+                android:id="@+id/star_num"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

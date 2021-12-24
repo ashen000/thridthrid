@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="昵称"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/makenickname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10sp"
+            android:singleLine="true"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="简介"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/makeinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="140dp"
+            android:hint="内容不包含回车"
+            android:textColorHint="#757272"
+            android:gravity="start"
+            android:paddingHorizontal="5dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="性别"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/makegender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="输入1代表男性，输入0代表女性"
+            android:textColorHint="#757272"
+            android:singleLine="true"
+            android:paddingLeft="10sp"
+            />
+        <Button
+            android:text="完成"
+            android:textSize="20sp"
+            android:id="@+id/doit"
+            android:layout_marginTop="30dp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
